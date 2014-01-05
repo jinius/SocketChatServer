@@ -49,7 +49,6 @@ public class ServerThread extends Thread implements ChatListener
 				if ( message.equals("quit") )
 					break;
 
-				System.out.println( name + ": " + message );
 				chatSubject.message( name + ": " + message );
 			}
 
